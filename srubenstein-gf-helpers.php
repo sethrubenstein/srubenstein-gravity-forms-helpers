@@ -2,7 +2,7 @@
 namespace sethrubenstein;
 class gfHelpers {
 	// Let's say you want to get a simple array of the answers from a "Survey" likert type entry that has values. This will return an array of answers, very simple. 
-	public function getSurveyAnswersArray( $entry, $form ) {
+	public function get_survey_answers( $entry, $form ) {
         $answers = array();
 
         $gfSurveys = new \GFSurvey();
